@@ -1,0 +1,105 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+}
+.containerHeader {
+  display: flex;
+}
+
+.containerInputDate, 
+.containerInputDistance,
+.buttonOkContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+
+.input {
+  background: #f7f3f3;
+  color: #333;
+  border: 1px solid;
+  border-radius: 10px;
+  background: #f7f3f3;
+  font-size: 2rem;
+  text-align: center;
+  width: 200px;
+  margin: 20px 0;
+  padding: 5px 0 5px 0;
+}
+
+.buttonOkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonOk {
+  margin: 42px 10px;
+  padding: 15px 0 15px 0;
+  border: 1px solid;
+  border-radius: 10px;
+  background: #f7f3f3;
+  width: 100px;
+  cursor: pointer;
+}
+
+.diaryHeaderContainer {
+  display: flex;
+  width: 450px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.itemContainer {
+  display: flex;
+
+}
+
+.dateText {
+width: 160px;
+margin: 20px 10px
+}
+.distText {
+  width: 120px;
+  text-align: center;
+  margin: 20px 10px 
+}
+
+.deleteBtn {
+  width: 50px;
+  height: 20px;
+  margin: 20px 0 20px 70px;
+}
+
+
+.containerDiary {
+  width: 500px;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.myStepContainer {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
