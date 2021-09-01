@@ -8,6 +8,9 @@ import Message from './components/Message';
 import ErrorMessage from './components/ErrorMessage';
 import Avatar from './components/Avatar';
 import Profile from './components/Profile';
+import SidebarParent from './components/SidebarParent';
+import WidgetParent from './components/WidgetParent';
+import ListParent from './components/ListParent';
 
 
 
@@ -34,6 +37,9 @@ export default function App(props) {
       <ErrorMessage />
       <Avatar username='coollogin' />
       <Profile username='coollogin' age={24} email='coollogin@yoursite.com' />
+      <SidebarParent />
+      <WidgetParent />
+      <ListParent />
     </div>
   );
 }
